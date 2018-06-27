@@ -23,7 +23,7 @@ public class LoginController {
     @ResponseBody
     public ResponseEntity<String> buscaPorId(@PathVariable(value="token") String token) {
         
-		return ResponseEntity.ok("{'valido':'true'}");
+		return ResponseEntity.ok("{\"valido\" : true}");
     }
 
 }

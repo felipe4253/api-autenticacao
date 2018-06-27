@@ -1,0 +1,76 @@
+{
+	"id": "31b1a320-975e-a142-ef67-d4b3b560b000",
+	"name": "API-Autenticacao",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "aula3",
+			"description": "",
+			"collectionId": "31b1a320-975e-a142-ef67-d4b3b560b000",
+			"order": [
+				"972d46f5-27ef-98f5-ac4f-10301e8c219b",
+				"9ea4ae9c-2e26-cb7a-9677-ef9518b13afb"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "8f66de6a-66d2-8c08-d25f-00e569d4b75e"
+		}
+	],
+	"folders_order": [
+		"8f66de6a-66d2-8c08-d25f-00e569d4b75e"
+	],
+	"timestamp": 1529625915454,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "972d46f5-27ef-98f5-ac4f-10301e8c219b",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "31b1a320-975e-a142-ef67-d4b3b560b000",
+			"data": null,
+			"dataMode": "params",
+			"name": "Login Teste",
+			"description": "Teste para a api de autenticação",
+			"descriptionFormat": "html",
+			"time": 1529625930150,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "8f66de6a-66d2-8c08-d25f-00e569d4b75e"
+		},
+		{
+			"id": "9ea4ae9c-2e26-cb7a-9677-ef9518b13afb",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "31b1a320-975e-a142-ef67-d4b3b560b000",
+			"data": null,
+			"dataMode": "params",
+			"name": "Validador Login",
+			"description": "Valida um token de autenticacao",
+			"descriptionFormat": "html",
+			"time": 1529627003500,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "8f66de6a-66d2-8c08-d25f-00e569d4b75e"
+		}
+	]
+}
